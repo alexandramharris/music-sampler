@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+h1 {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 4rem;
+  margin: auto;
+  text-align: center;
+}
+
+#author {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 1.4rem;
+  margin: auto;
+}
+
+#photo {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+
+}
+
+
+body {
+  background-color: #121213;
+  color: #F7F7F7;
+}
+
+p {
+  font-family: serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+#container-covers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#container-info {
+  display: flex;
+  justify-content: center;
+}
+
+
+.cover {
+  max-width: 200px;
+  margin: 1rem;
+}
+
+.songname {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  font-family: serif;
+  background-color: #DEDEDE;
+  color: #121213;
+  margin-bottom: -2rem;
+  margin-top: 1rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Pseudo elements */
+
+
+/* Media queries */
