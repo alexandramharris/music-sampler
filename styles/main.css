@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Lexend+Deca:wght@300;500;900&family=Tinos&display=swap');
+
 
 h1 {
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 500;
   font-size: 4rem;
   margin: auto;
   text-align: center;
 }
 
 #author {
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+  font-weight: 300;
   font-size: 1.4rem;
   margin: auto;
 }
@@ -28,11 +32,19 @@ body {
   color: #F7F7F7;
 }
 
+.paragraph {
+  text-align: left;
+  margin-left: 13rem;
+  margin-right: 13rem;
+}
+
 p {
-  font-family: serif;
-  font-size: 1.2rem;
+  font-family: 'Tinos', serif;
+  font-size: 1.3rem;
   text-align: center;
 }
+
+
 
 
 #container-covers {
@@ -63,30 +75,61 @@ p {
   justify-content: center;
   border-style: solid;
   padding: 0.5rem;
-  border-width: 3px;
+  border-width: 2px;
   box-shadow: 0px 0px 20px 5px #D284A5;
 }
 
 footer {
-  font-family: serif;
+  font-family: 'Tinos', serif;
   background-color: #DEDEDE;
   color: #121213;
   margin-bottom: -2rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-left: -2rem;
   margin-right: -2rem;
-  text-align: center;
   display: flex;
   flex-direction: column;
+  line-height: 0.1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Pseudo elements */
 .cover:hover {
   box-shadow: 0px 0px 20px 10px #D284A5;
+  cursor: pointer;
 }
 
 .cover:active {
   box-shadow: 0px 0px 20px 10px #be4c7c;
 }
 
+a {
+  text-decoration: none;
+  color: #6103BE;
+}
+
+a:hover {
+  color: #904ed1;
+}
+
+a:active {
+  color: #b081de;
+}
+
+
 /* Media queries */
+
+@media screen and (max-width: 420px) {
+  .paragraph {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .paragraph {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
