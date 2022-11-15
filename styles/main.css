@@ -23,7 +23,6 @@ h1 {
 
 }
 
-
 body {
   background-color: #121213;
   color: #F7F7F7;
@@ -51,12 +50,21 @@ p {
 
 .cover {
   max-width: 200px;
-  margin: 1rem;
+  margin: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 10px #fff;
+    /* in order: x offset, y offset, blur size, spread size, color */
 }
 
 .songname {
   display: flex;
   justify-content: center;
+  border-style: solid;
+  padding: 0.5rem;
+  border-width: 3px;
+  box-shadow: 0px 0px 20px 5px #D284A5;
 }
 
 footer {
@@ -73,6 +81,12 @@ footer {
 }
 
 /* Pseudo elements */
+.cover:hover {
+  box-shadow: 0px 0px 20px 10px #D284A5;
+}
 
+.cover:active {
+  box-shadow: 0px 0px 20px 10px #be4c7c;
+}
 
 /* Media queries */
